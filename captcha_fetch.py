@@ -1,7 +1,6 @@
 
 import os
 import ddddocr
-import pyocr
 
 # 初始化 OCR 模型
 ocr = ddddocr.DdddOcr()
