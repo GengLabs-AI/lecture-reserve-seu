@@ -17,7 +17,7 @@
 ### 1️⃣ 安装准备
 
 1. 安装 [Python 3.8+](https://www.python.org/downloads/)
-2. 下载代码包（欢迎Star ⭐）：[点击下载](https://github.com/genglabs-ai/seu-lecture-bot)
+2. 下载代码包（欢迎Star ⭐）：[点击下载](https://github.com/GengLabs-AI/Lecture-Reserve-SEU.git)
 3. 解压后进入文件夹
 4. 配置浏览器环境：[Chrome浏览器 和 Chromedriver](https://googlechromelabs.github.io/chrome-for-testing/#dev)
 
