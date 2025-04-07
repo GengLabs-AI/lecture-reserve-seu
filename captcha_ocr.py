@@ -22,8 +22,8 @@ driver.get(url)
 time.sleep(5)  # 页面加载时间，可根据实际情况调整
 
 # 输入一卡通号和密码
-card_number = "230258294"
-password = "194834"
+card_number = ""
+password = ""
 
 driver.find_element(By.CLASS_NAME, "input-username-pc").find_element(By.TAG_NAME, "input").send_keys(card_number)
 driver.find_element(By.CLASS_NAME, "input-password-pc").find_element(By.TAG_NAME, "input").send_keys(password)
@@ -45,7 +45,7 @@ if not os.path.exists("image_dataset"):
     os.makedirs("image_dataset")
 
 # 循环保存 100 张验证码图片
-for i in range(700):
+for i in range(1001):
     try:
         # 找到验证码图片
         vcode_img = driver.find_element(By.ID, "vcodeImg")

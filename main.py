@@ -19,8 +19,8 @@ from datetime import datetime
 # ==================== 全局配置项 ====================
 CONFIG = {
     # 登录凭证
-    "card_number": "230258294",  # 一卡通号
-    "password": "194834",  # 登录密码
+    "card_number": "",  # 一卡通号
+    "password": "",  # 登录密码
 
     # 讲座筛选条件
 
