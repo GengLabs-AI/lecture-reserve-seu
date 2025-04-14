@@ -307,7 +307,6 @@ def main_process():
 
                 # 尝试预约优先级最高的讲座
                 reserve_lecture(lectures[0])
-                time.sleep(0.5)
 
             else:
                 # 只在第一次未找到时显示完整提示
